@@ -1,4 +1,4 @@
-from constants import DEER_MESSAGE, LION_MESSAGE, BAT_MESSAGE
+from constants import DEER_MESSAGE, LION_MESSAGE, BAT_MESSAGE, CAMEL_IMAGE
 
 
 class Animal:
@@ -27,3 +27,11 @@ class Lion(Animal):
 
     def __str__(self):
         return LION_MESSAGE
+
+
+class Camel(Animal):
+    def __init__(self):
+        super().__init__()
+
+    def __str__(self):
+        return CAMEL_IMAGE
